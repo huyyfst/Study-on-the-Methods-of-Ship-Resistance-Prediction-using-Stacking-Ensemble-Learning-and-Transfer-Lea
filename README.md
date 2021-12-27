@@ -19,3 +19,5 @@ The workflow of programs is shown in Fig. 3.
 <img width="1093" alt="flow" src="https://user-images.githubusercontent.com/45836677/147475181-edbec4ca-cb5e-45aa-89ac-b0415a6680d5.png">
 
 Fig. 3. The workflow of programs
+
+In the files displayed on this website, "models" file contains trained models; "1st_prediction_results" and "2nd_prediction_results" contain the prediction results of first hidden layer units and second hidden layer units. The final results are shown in the paper. "2nd_train*.xls" is obtained by learning the data of "1st_train*.xls" using "1st_vc*.py".
