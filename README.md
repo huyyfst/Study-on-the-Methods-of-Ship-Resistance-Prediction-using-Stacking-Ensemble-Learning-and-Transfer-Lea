@@ -12,6 +12,10 @@ Fig. 1. The topology of stacking machine learning models. Where x1, x2, ..., xn 
 
 Fig. 2. The topology of transfer learning models.
 
-In the learning of stacking ensemble models, container ships of 1100-TEU, 4250-TEU, 9000-TEU, 13500-TEU, are taken as the training set, 4700-TEU container ship and KCS are taken as the test set. There are stacking ensemble models and KCS data for verifying the results of the study. 
+In the learning of stacking ensemble models, container ships of 1100-TEU, 4250-TEU, 9000-TEU, 13500-TEU, are taken as the training set, 4700-TEU container ship and KCS are taken as the test set. Here, KCS data are taken to verify the results of the study. 
 
-Take the name "1st-LR-1vc" as an example, "1st" represents the first hidden layer; "LR" represents the LR model; "1vc" represents the first cross-validation model. It shoud be note that you need to manually summarize the data.
+The workflow of programs is shown in Fig. 3.
+
+<img width="1093" alt="flow" src="https://user-images.githubusercontent.com/45836677/147475181-edbec4ca-cb5e-45aa-89ac-b0415a6680d5.png">
+
+Fig. 3. The workflow of programs
